@@ -3,7 +3,10 @@
   font-family: "Montserrat", sans-serif;
   color: var(--black);
 }
-
+a:hover {
+  color: var(--blue);
+  transition: all 0.3s;
+}
 body {
   position: relative;
 }
@@ -11,7 +14,23 @@ body {
 :root {
   --white: #ffffff;
   --black: #1f1b20;
+  --dark: #363636;
   --violet: #a73489;
+  --blue: #00aeff;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-height: 100dvh;
+  &__main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  display: flex;
+  flex-direction: column;
 }
 .container {
   max-width: 1140px;

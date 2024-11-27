@@ -7,7 +7,7 @@
     <meta
         name="description"
         content="Разработка IT-инструментов для ваших проектов" />
-    <link rel="shortcut icon" href="/img/logo.svg" type="image/x-icon" />
+    <link rel="shortcut icon" href="/img/logo-favicon.svg" type="image/x-icon" />
     <link
         rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" />
@@ -18,38 +18,44 @@
 
 <body>
     <div class="wrapper">
-        <?php include_once('header.php'); ?>
+        <div class="wrapper__main">
+            <?php include_once('header.php'); ?>
 
-        <div class="first-screen">
-            <div class="first-screen__container container">
-                <div class="first-screen__main">
-                    <div class="first-screen__left">
-                        <h1 class="first-screen__title title title_h1">
-                            Анализ  <br>
-                            <span class="text_purple">Разработка </span><br>
-                            Сопровождение <br>
-                        </h1>
-                        <p class="first-screen__subtitle">
-                            Разрабатываем, внедряем и сопровождаем Битрикс24
-                        </p>
+            <div class="first-screen">
+                <div class="first-screen__container container">
+                    <div class="first-screen__main">
+                        <div class="first-screen__left">
+                            <h1 class="first-screen__title title title_h1">
+                                Анализ  <br>
+                                <span class="text_purple">Разработка </span><br>
+                                Сопровождение <br>
+                            </h1>
+                            <p class="first-screen__subtitle">
+                                Разрабатываем, внедряем и сопровождаем Битрикс24
+                            </p>
 
-                        <button class="first-screen__btn" data-btn="cta-popup">
-                            Обсудить проект
+                            <button class="first-screen__btn" data-btn="cta-popup">
+                                Обсудить проект
+                            </button>
+                        </div>
+                        <div class="first-screen__right">
+                            <picture>
+                                <source srcset="/img/first-screen-right.webp" type="image/webp">
+                                <img class="first-screen__right-img" src="/img/first-screen-right.png" alt="Картинка">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="first-screen__bottom">
+                        <button class="first-screen__bottom-btn">
                         </button>
                     </div>
-                    <div class="first-screen__right">
-                        <picture>
-                            <source srcset="/img/first-screen-right.webp" type="image/webp">
-                            <img class="first-screen__right-img" src="/img/first-screen-right.png" alt="Картинка">
-                        </picture>
-                    </div>
-                </div>
-                <div class="first-screen__bottom">
-                    <button class="first-screen__bottom-btn">
-                    </button>
                 </div>
             </div>
         </div>
+
+
+        <?php include_once('footer.php'); ?>
+
     </div>
 
     <script src="/js/main.min.js"></script>
