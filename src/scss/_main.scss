@@ -1,19 +1,27 @@
 * {
-    font-size: 16px;
-    font-family: "Montserrat", sans-serif;
-    color: var(--black);
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: var(--black);
 }
 
 body {
-    position: relative;
+  position: relative;
 }
 
 :root {
-    --white: #ffffff;
-    --black: #1F1B20;
+  --white: #ffffff;
+  --black: #1f1b20;
+  --violet: #a73489;
 }
 .container {
-    max-width: 1140px;
-    padding: 0 15px;
-    margin: 0 auto;
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.text {
+  &_purple {
+    font-size: inherit;
+    color: var(--violet);
+  }
 }
