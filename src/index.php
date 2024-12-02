@@ -54,8 +54,10 @@
 
             <?php
 
+
             include_once('expertise.php');
             include_once('cases-block.php');
+            include_once('services.php');
             include_once('contacts.php');
             ?>
         </div>
