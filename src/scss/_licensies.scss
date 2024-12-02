@@ -1,0 +1,89 @@
+.licensies {
+  &__container {
+    padding-top: 120px;
+  }
+  &__top {
+    margin-bottom: 30px;
+  }
+  &___title {
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 350px;
+    min-height: 565px;
+    padding: 20px;
+    border: 1px solid var(--blue);
+    border-radius: 10px;
+  }
+  &__item-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  &__item-main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-grow: 1;
+    margin-bottom: 25px;
+  }
+  &__item-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+  }
+  &__item-price {
+  }
+  &__item-section {
+  }
+  &__item-section-title {
+    font-weight: 500;
+    color: var(--blue);
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  &__item-section-list {
+    list-style-position: outside;
+  }
+  &__item-section-item {
+    list-style-position: inside;
+    list-style-type: disc;
+    font-weight: 300;
+    line-height: 160%;
+    color: var(--gray);
+  }
+  &__item-btn {
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid var(--blue);
+    border-radius: 15px;
+    transition: all 0.3s;
+    &:hover {
+      background: var(--blue);
+      color: var(--white);
+    }
+  }
+}
+
+@media (max-width: 1160px) {
+  .licensies {
+
+    &__list {
+      justify-content: center;
+    }
+    &__item {
+      flex: 1 0s 300px;
+    }
+  }
+}
