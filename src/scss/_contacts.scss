@@ -1,0 +1,56 @@
+.contacts {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-top: 120px;
+    padding-bottom: 50px;
+  }
+  &__left {
+  }
+  &__logo {
+  }
+  &__logo-block-link {
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  &__item {
+  }
+  &__item-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  &__item-link-icon {
+  }
+  &__right {
+  }
+}
+
+.b24-form-header-padding, .b24-form-content, .b24-form-padding-side {
+  padding: 0 !important;
+}
+
+.b24-form-wrapper {
+    z-index: 10;
+    max-width: 548px !important;
+  }
+
+@media (max-width: 780px) {
+  .contacts {
+    &__container {
+      flex-direction: column;
+    }
+  }
+
+  .b24-form-wrapper {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+}
