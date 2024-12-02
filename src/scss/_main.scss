@@ -17,6 +17,7 @@ body {
   --dark: #363636;
   --violet: #a73489;
   --blue: #00aeff;
+  --gray: #828D9C;
 }
 .wrapper {
   display: flex;
@@ -49,5 +50,13 @@ body {
   &_purple {
     font-size: inherit;
     color: var(--violet);
+  }
+}
+
+@media (max-width: 545px) {
+  .title {
+    &_h2 {
+      font-size: 28px;
+    }
   }
 }
