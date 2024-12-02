@@ -1,0 +1,115 @@
+.cases {
+  &__container {
+    padding-top: 120px;
+  }
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 42px;
+    gap: 25px;
+    row-gap: 10px;
+  }
+  &__title {
+  }
+
+  &__link-to-all {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+  &__item {
+    height: 100vh;
+    width: 100vw;
+    max-width: 48%;
+    max-height: 41dvh;
+  }
+  &__item-link {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 5px;
+    height: 100%;
+    width: 100%;
+    color: var(--white);
+    padding: 25px;
+    border-radius: 15px;
+    overflow: hidden;
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      background: linear-gradient(
+        0deg,
+        rgba(31, 27, 32, 0.4) 0%,
+        rgba(31, 27, 32, 0) 100%
+      );
+      border-radius: inherit;
+      transition: all 0.3s;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      opacity: 0;
+      background: rgba(31, 27, 32, 0.4);
+      border-radius: inherit;
+      transition: all 0.3s;
+    }
+    &:hover:after {
+      opacity: 1;
+    }
+  }
+  &__item-link-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--white);
+    z-index: 15;
+  }
+  &__item-link-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white);
+    z-index: 15;
+  }
+  &__item-link-img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 780px) {
+  .cases {
+    &__item {
+      max-width: 100dvw;
+      max-height: 360px;
+    }
+  }
+}
+
+@media (max-width: 460px) {
+  .cases {
+    &__item {
+      max-height: 300px;
+    }
+  }
+}

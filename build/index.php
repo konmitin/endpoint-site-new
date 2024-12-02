@@ -52,7 +52,11 @@
                 </div>
             </div>
 
-            <?php include_once('contacts.php'); ?>
+            <?php
+
+            include_once('cases-block.php');
+            include_once('contacts.php');
+            ?>
         </div>
 
 

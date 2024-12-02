@@ -37,6 +37,13 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
+.title {
+  color: var(--black);
+  &_h2 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+}
 
 .text {
   &_purple {
