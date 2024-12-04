@@ -18,11 +18,11 @@
 
 <body>
     <div class="wrapper">
-        <div class="wrapper__main">
-            <?php
-            include_once('header.php');
-            ?>
 
+        <?php
+        include_once('header.php');
+        ?>
+        <div class="wrapper__main">
             <div class="first-screen">
                 <div class="first-screen__container container">
                     <div class="first-screen__main">

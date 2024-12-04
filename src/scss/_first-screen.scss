@@ -8,7 +8,7 @@
 }
 
 .first-screen {
-  height: 100dvh;
+  height: calc(100dvh - 70px);
   width: 100%;
   background: var(--black);
   left: 0;

@@ -10,7 +10,8 @@
   }
   &__logo {
   }
-  &__logo-block-link {
+  &__logo-block-link img{
+    max-height: 40px;
   }
   &__list {
     display: flex;

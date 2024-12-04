@@ -2,6 +2,9 @@
   &__container {
     padding-top: 120px;
   }
+  &__page  &__container{
+    padding-top: 45px;
+  }
   &__top {
     display: flex;
     align-items: center;
