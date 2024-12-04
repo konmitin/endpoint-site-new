@@ -10,7 +10,8 @@
     align-items: center;
     justify-content: space-between;
   }
-  &__logo-block {
+  &__logo-block img{
+    max-height: 40px;
   }
   &__menu {
   }
