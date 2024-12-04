@@ -11,7 +11,7 @@
     <link
         rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap" />
-    <title>EndPoint - Разработка IT-инструментов для ваших проектов</title>
+    <title>Кейсы - EndPoint</title>
 
     <link rel="stylesheet" href="/css/style.min.css">
 </head>
@@ -46,7 +46,7 @@
                     </div>
                     <ul class="cases__list">
                         <li class="cases__item">
-                            <a href="/cases/1" class="cases__item-link">
+                            <a href="/case.php" class="cases__item-link">
                                 <h4 class="cases__item-link-title">Удобная корзина</h4>
                                 <p class="cases__item-link-description">Модуль для 1С-Битрикс24 для просмотра корзины с иерархией папок</p>
                                 <picture>
@@ -56,7 +56,7 @@
                             </a>
                         </li>
                         <li class="cases__item">
-                            <a href="/cases/2" class="cases__item-link">
+                            <a href="/case.php" class="cases__item-link">
                                 <h4 class="cases__item-link-title">Яндекс Заправки - управление</h4>
                                 <p class="cases__item-link-description">Приложение для Битрикс24 для управление доступом сотрудников к Яндекс Заправкам</p>
                                 <picture>
@@ -66,7 +66,7 @@
                             </a>
                         </li>
                         <li class="cases__item">
-                            <a href="/cases/3" class="cases__item-link">
+                            <a href="/case.php" class="cases__item-link">
                                 <h4 class="cases__item-link-title">Приветствие новому сотруднику</h4>
                                 <p class="cases__item-link-description">Приложение Битрикс24 для формирования приветствия для всех новых сотрудников компании</p>
                                 <picture>
@@ -76,7 +76,7 @@
                             </a>
                         </li>
                         <li class="cases__item">
-                            <a href="/cases/4" class="cases__item-link">
+                            <a href="/case.php" class="cases__item-link">
                                 <h4 class="cases__item-link-title">Удобная корзина</h4>
                                 <p class="cases__item-link-description">Модуль для 1С-Битрикс24 для просмотра корзины с иерархией папок</p>
                                 <picture>
@@ -86,7 +86,7 @@
                             </a>
                         </li>
                         <li class="cases__item">
-                            <a href="/cases/4" class="cases__item-link">
+                            <a href="/case.php" class="cases__item-link">
                                 <h4 class="cases__item-link-title">Удобная корзина</h4>
                                 <p class="cases__item-link-description">Модуль для 1С-Битрикс24 для просмотра корзины с иерархией папок</p>
                                 <picture>
@@ -96,7 +96,7 @@
                             </a>
                         </li>
                         <li class="cases__item">
-                            <a href="/cases/4" class="cases__item-link">
+                            <a href="/case.php" class="cases__item-link">
                                 <h4 class="cases__item-link-title">Удобная корзина</h4>
                                 <p class="cases__item-link-description">Модуль для 1С-Битрикс24 для просмотра корзины с иерархией папок</p>
                                 <picture>
@@ -106,7 +106,7 @@
                             </a>
                         </li>
                         <li class="cases__item">
-                            <a href="/cases/4" class="cases__item-link">
+                            <a href="/case.php" class="cases__item-link">
                                 <h4 class="cases__item-link-title">Удобная корзина</h4>
                                 <p class="cases__item-link-description">Модуль для 1С-Битрикс24 для просмотра корзины с иерархией папок</p>
                                 <picture>
@@ -116,7 +116,7 @@
                             </a>
                         </li>
                         <li class="cases__item">
-                            <a href="/cases/4" class="cases__item-link">
+                            <a href="/case.php" class="cases__item-link">
                                 <h4 class="cases__item-link-title">Удобная корзина</h4>
                                 <p class="cases__item-link-description">Модуль для 1С-Битрикс24 для просмотра корзины с иерархией папок</p>
                                 <picture>
@@ -126,7 +126,7 @@
                             </a>
                         </li>
                         <li class="cases__item">
-                            <a href="/cases/4" class="cases__item-link">
+                            <a href="/case.php" class="cases__item-link">
                                 <h4 class="cases__item-link-title">Удобная корзина</h4>
                                 <p class="cases__item-link-description">Модуль для 1С-Битрикс24 для просмотра корзины с иерархией папок</p>
                                 <picture>
@@ -156,6 +156,8 @@
         ?>
 
     </div>
+
+    <script src="/js/main.min.js"></script>
 </body>
 
 </html>

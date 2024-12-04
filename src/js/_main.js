@@ -30,10 +30,10 @@ automats.forEach((automat) => {
 
     let target = event.target;
 
-    while(!target.classList.contains('automat__par-item')) {
-        target = target.parentElement;
+    while (!target.classList.contains("automat__par-item")) {
+      target = target.parentElement;
     }
-    
+
     target.classList.add("active");
 
     let hoverStepId = target.id.split("").reverse()[0];
@@ -42,6 +42,41 @@ automats.forEach((automat) => {
 
     let toActiveStepInfo = document.querySelector(
       "#automat-info-" + hoverStepId
+    );
+
+    toActiveStepInfo.classList.add("active");
+  });
+});
+
+// ===============
+
+const caseTabs = document.querySelectorAll(".case__tab");
+const caseContents = document.querySelectorAll(".case__content");
+
+caseTabs.forEach((tab) => {
+  tab.addEventListener("click", (event) => {
+    caseTabs.forEach((tab) => {
+      tab.classList.remove("active");
+    });
+
+    caseContents.forEach((caseContent) => {
+      caseContent.classList.remove("active");
+    });
+
+    let target = event.target;
+
+    while (!target.classList.contains("case__tab")) {
+      target = target.parentElement;
+    }
+
+    target.classList.add("active");
+
+    let hoverStepId = target.getAttribute('data-tab').split("").reverse()[0];
+
+    console.log(hoverStepId);
+
+    let toActiveStepInfo = document.querySelector(
+      "[data-tab='content-" + hoverStepId + "']"
     );
 
     toActiveStepInfo.classList.add("active");
