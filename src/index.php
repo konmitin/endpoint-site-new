@@ -19,7 +19,9 @@
 <body>
     <div class="wrapper">
         <div class="wrapper__main">
-            <?php include_once('header.php'); ?>
+            <?php
+            include_once('header.php');
+            ?>
 
             <div class="first-screen">
                 <div class="first-screen__container container">
@@ -65,7 +67,11 @@
         </div>
 
 
-        <?php include_once('footer.php'); ?>
+        <?php
+
+        include_once('footer.php');
+
+        ?>
 
     </div>
 
