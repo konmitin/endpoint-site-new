@@ -11,6 +11,7 @@
   &__title-tag {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 15px;
   }
   &__title {
@@ -33,6 +34,7 @@
   &__logo-screen {
     display: flex;
     justify-content: space-between;
+    gap: 50px;
   }
   &__logo-block {
     display: flex;
@@ -158,4 +160,37 @@
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   }
+}
+
+@media (max-width: 768px) {
+    .case {
+        &__content-title_h3 {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+        &__content-title_h4 {
+            font-size: 20px;
+        }
+
+        &__content-description {
+            font-size: 18px;
+        }
+    }
+
+}
+@media (max-width: 610px) {
+    .case {
+        &__logo-screen {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__screen-block {
+            display: none;
+        }
+
+        &__tabs-list {
+            justify-content: center;
+        }
+    }
 }
