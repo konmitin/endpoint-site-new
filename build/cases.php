@@ -157,6 +157,9 @@
 
     </div>
 
+    <button id="btn-to-up" class="btn-to-up">
+    </button>
+
     <script src="/js/main.min.js"></script>
 </body>
 
