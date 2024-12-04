@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 * {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
@@ -16,9 +19,9 @@ body {
   --black: #1f1b20;
   --dark: #363636;
   --violet: #a73489;
-  --orange: #E64E5B;
+  --orange: #e64e5b;
   --blue: #00aeff;
-  --gray: #828D9C;
+  --gray: #828d9c;
 }
 .wrapper {
   display: flex;

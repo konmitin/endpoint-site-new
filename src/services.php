@@ -1,4 +1,4 @@
-<div class="services">
+<div id="services" class="services">
     <div class="services__container container">
         <div class="services__top">
             <h2 class="services__title title title_h2">

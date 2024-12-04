@@ -1,4 +1,4 @@
-<div class="automat">
+<div id="automat" class="automat">
     <div class="automat__container container">
         <div class="automat__top">
             <h2 class="automat__title title title_h2">Автоматизация с Битрикс24</h2>

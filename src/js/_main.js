@@ -3,6 +3,16 @@
 const body = document.querySelector("body");
 const burger = document.querySelector("#burger");
 const menuHidden = document.querySelector("#menu-hidden");
+const menuHiddenItem = document.querySelectorAll(".menu__hidden-item");
+
+menuHiddenItem.forEach((item) => {
+  item.addEventListener("click", (event) => {
+    menuHidden.classList.remove("active");
+    burger.classList.remove("active");
+
+    body.style.overflow = "visible";
+  });
+});
 
 burger.addEventListener("click", () => {
   menuHidden.classList.toggle("active");
@@ -71,7 +81,7 @@ caseTabs.forEach((tab) => {
 
     target.classList.add("active");
 
-    let hoverStepId = target.getAttribute('data-tab').split("").reverse()[0];
+    let hoverStepId = target.getAttribute("data-tab").split("").reverse()[0];
 
     console.log(hoverStepId);
 

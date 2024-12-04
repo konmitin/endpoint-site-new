@@ -1,4 +1,4 @@
-<div class="expertise">
+<div id="expertise" class="expertise">
     <div class="expertise__container container">
         <div class="expertise__top">
             <h2 class="expertise__title title title_h2">Компетенции и технологии</h2>

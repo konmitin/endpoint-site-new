@@ -1,4 +1,4 @@
-<div class="contacts">
+<div id="contacts" class="contacts">
     <div class="contacts__container container">
         <div class="contacts__left">
             <div class="contacts__logo">

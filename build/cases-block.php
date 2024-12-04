@@ -1,4 +1,4 @@
-<div class="cases">
+<div id="cases" class="cases">
     <div class="cases__container container">
         <div class="cases__top">
             <h2 class="cases__title title title_h2">Наши кейсы</h2>

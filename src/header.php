@@ -8,13 +8,13 @@
         <nav class="header__menu menu">
             <ul class="menu__list">
                 <li class="menu__item">
-                    <a href="#cases" class="menu__item-link">Кейсы</a>
+                    <a href="/cases.php" class="menu__item-link">Кейсы</a>
                 </li>
                 <li class="menu__item">
                     <a href="#expertise" class="menu__item-link">Компетецнии</a>
                 </li>
                 <li class="menu__item">
-                    <a href="#servises" class="menu__item-link">Услуги</a>
+                    <a href="#services" class="menu__item-link">Услуги</a>
                 </li>
                 <li class="menu__item">
                     <a href="#contacts" class="menu__item-link">Контакты</a>
@@ -33,13 +33,13 @@
                 </div>
                 <ul class="menu__hidden-list">
                     <li class="menu__hidden-item">
-                        <a href="#cases" class="menu__hidden-item-link">Кейсы</a>
+                        <a href="/cases.php" class="menu__hidden-item-link">Кейсы</a>
                     </li>
                     <li class="menu__hidden-item">
                         <a href="#expertise" class="menu__hidden-item-link">Компетецнии</a>
                     </li>
                     <li class="menu__hidden-item">
-                        <a href="#servises" class="menu__hidden-item-link">Услуги</a>
+                        <a href="#services" class="menu__hidden-item-link">Услуги</a>
                     </li>
                     <li class="menu__hidden-item">
                         <a href="#contacts" class="menu__hidden-item-link">Контакты</a>
