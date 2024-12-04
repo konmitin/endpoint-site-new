@@ -55,6 +55,7 @@
             <?php
 
 
+            include_once('automat.php');
             include_once('licensies.php');
             include_once('expertise.php');
             include_once('cases-block.php');
