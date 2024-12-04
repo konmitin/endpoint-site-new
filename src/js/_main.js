@@ -1,5 +1,33 @@
 "use strict";
 
+// === btn-down ===
+
+const btnDown = document.querySelector('#btn-down');
+
+btnDown.addEventListener("click", (event)=> {
+
+    window.scrollTo(0, window.innerHeight);
+})
+
+// === btn up  ===
+
+const btnUp = document.querySelector('#btn-to-up');
+
+btnUp.addEventListener("click", (event)=> {
+
+    window.scrollTo(pageXOffset, 0);
+})
+
+// ======
+
+window.addEventListener("scroll", () => {
+    if(pageYOffset > window.innerHeight) {
+        btnUp.classList.add('active');
+    } else {
+        btnUp.classList.remove('active');
+    }
+});
+
 const body = document.querySelector("body");
 const burger = document.querySelector("#burger");
 const menuHidden = document.querySelector("#menu-hidden");

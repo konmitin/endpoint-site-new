@@ -1,6 +1,32 @@
 html {
   scroll-behavior: smooth;
 }
+
+.btn-to-up {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  width: 40px;
+  height: 40px;
+  z-index: 100;
+  transform: rotateZ(180deg);
+  animation-name: pulsar-btn;
+  animation-duration: 0.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  visibility: hidden;
+  transition: all 0.3s;
+  opacity: 0;
+
+  &.active {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
 * {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;

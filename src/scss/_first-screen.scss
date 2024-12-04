@@ -1,9 +1,9 @@
 @keyframes pulsar-btn {
   from {
-    background: url("/img/first-screen-btn.svg") no-repeat;
+    background: url("/img/first-screen-btn.svg") no-repeat center;
   }
   to {
-    background: url("/img/first-screen-btn-no.svg") no-repeat;
+    background: url("/img/first-screen-btn-no.svg") no-repeat center;
   }
 }
 
@@ -48,6 +48,9 @@
     font-size: 24px;
   }
   &__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: var(--white);
     padding: 16px 50px;
     max-width: 300px;
@@ -60,6 +63,7 @@
   }
   &__btn:hover {
     background: none;
+    color: var(--white);
   }
   &__right {
     max-width: 420px;

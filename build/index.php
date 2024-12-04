@@ -36,9 +36,9 @@
                                 Разрабатываем, внедряем и сопровождаем Битрикс24
                             </p>
 
-                            <button class="first-screen__btn" data-btn="cta-popup">
+                            <a href="#contacts" class="first-screen__btn" data-btn="cta-popup">
                                 Обсудить проект
-                            </button>
+                            </a>
                         </div>
                         <div class="first-screen__right">
                             <picture>
@@ -48,7 +48,7 @@
                         </div>
                     </div>
                     <div class="first-screen__bottom">
-                        <button class="first-screen__bottom-btn">
+                        <button id="btn-down" class="first-screen__bottom-btn">
                         </button>
                     </div>
                 </div>
@@ -75,6 +75,8 @@
 
     </div>
 
+    <button id="btn-to-up" class="btn-to-up">
+    </button>
     <script src="/js/main.min.js"></script>
 </body>
 

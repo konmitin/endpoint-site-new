@@ -188,6 +188,7 @@
       border-radius: 0px;
       box-shadow: none;
       max-height: none;
+      height: max-content;
     }
 
     &__info-item {
@@ -197,6 +198,11 @@
       transform: translate(0);
       border-radius: 20px;
       box-shadow: 0px 4px 20px rgba(0, 174, 255, 0.2);
+      display: none;
+    }
+
+    &__info-item.active {
+      display: flex;
     }
 
     &__info-sublist {
